@@ -1,4 +1,4 @@
-const animatePlugin = await import('tailwindcss-animate').then(module => module.default);
+import animatePlugin from 'tailwindcss-animate';
 
 export default {
     darkMode: ['class'],
